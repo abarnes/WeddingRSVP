@@ -1,0 +1,111 @@
+body {
+    background-image:url('/img/back.png');
+    background-repeat:repeat;
+}
+
+#main {
+    margin-top:10%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 580px;
+    min-height:400px;
+    /*height: 400px;*/
+    background-color:#F0FFF0;
+    
+    /*background-image:url('/img/flower.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;*/s
+    background-position:470px 150px;
+}
+
+.shadow {
+    -moz-box-shadow: 0 0 30px 10px #888888;
+    -webkit-box-shadow: 0 0 30px 10px #888888;
+}
+
+.cursive {
+    /*font-family: "Apple Chancery", "Zapf Chancery", cursive*/
+    font-family: cursive;
+    color:#4169E1;
+}
+
+.wid {
+    margin-left:12px;
+    height:25px;
+    width:310px;
+}
+
+label {
+    font-family: cursive;
+    font-size:120%;
+}
+
+p, #flashMessage {
+    font-style:italic;
+    margin-left:0px;
+}
+
+#flashMessage {
+    color:red;
+}
+
+
+input[type="radio"] {
+    vertical-align:middle;
+    margin-left:50px;
+    margin-right:6px;
+}
+
+/*-----------------backend layout --------*/
+
+#b-main {
+    margin-top:30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    background-color:#F0FFF0;
+    padding:10px;
+    
+    /*background-image:url('/img/flower.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;*/
+    background-position:470px 150px;
+}
+
+/*table style-----------*/
+.grid {
+    width:765px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.grid th {
+    color:#ffffff;
+    font-size:.8em;
+    text-align:left;
+    padding:4px;
+    background: rgb(85,147,204);
+    height:20px;
+}
+.grid td {
+    font-size: .8em;
+    height: 16px;
+    padding:5px;
+}
+.cn {
+    text-align:center;
+}
+.grid th a {
+    color:#ffffff;
+    text-decoration:none;
+}
+.row1 {
+    background: rgb(216,223,238);
+}
+.row2 {
+    background: rgb(237,241,247);
+}
+h1 {
+    font-family: cursive;
+    color:#4169E1;
+}
+/*--------*/
